@@ -33,7 +33,7 @@ CREATE TABLE “sales_data” (
 
 ## 2 - Import and load sample data
 Data imported via phpMyAdmin web interface
-![Confirmation of data import](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/1%20-%20MySQL%20OLTP%20Database/importdata.png)
+![Confirmation of data import](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/1%20-%20MySQL%20OLTP%20Database/importdata.PNG)
 
 We can confirm successful load and show a count of entries in the table.
 ```

@@ -1,7 +1,7 @@
 # Data Engineering Capstone Project
 Demonstrate knowledge of Data Engineering by assuming the role of a Junior Data Engineer who is presented with a project that requires architecting and implementing a data analytics platform.
 
-![Visual breakdown of the project components](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/outline.png)
+![Visual breakdown of the project components](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/outline.PNG)
 
 This is the final project of the [IBM Data Engineering Professional Certificate program](https://www.coursera.org/professional-certificates/ibm-data-engineer).
 

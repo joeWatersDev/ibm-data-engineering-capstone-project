@@ -22,13 +22,13 @@ In part 2 you will generate reports out of the data in the data warehouse.
 ## 1 - Design the schema
 The following sample data for the warehouse is provided.
 
-![Sample data to populate data warehouse](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/03%20-%20PostgreSQL%20Data%20Warehouse/sampleData.png)
+![Sample data to populate data warehouse](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/sampleData.png)
 
 The company is looking at a granularity of a day. Which means they would like to have the ability to generate the report on yearly, monthly, daily, and weekday basis.
 
 With that knowledge, we use pgAdmin's ERD design tool to design a star schema database, with a central fact table for individual orders. Dimension tables will be created to store descriptive data for each order. These will be linked to the fact table in a one-to-many relationship.
 
-![ERD schema design](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/03%20-%20PostgreSQL%20Data%20Warehouse/softcartRelationships.png)
+![ERD schema design](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/softcartRelationships.PNG)
 
 
 ## 2 - Export schema SQL
@@ -130,16 +130,16 @@ Load the data provided into the fact and dimension tables created in part 1.
 Below are the first five rows of data for each table.
 
 DimCategory:
-![Populated DimCategory table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/03%20-%20PostgreSQL%20Data%20Warehouse/DimCategory.png)
+![Populated DimCategory table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/DimCategory.PNG)
 
 DimCountry:
-![Populated DimCountry table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/03%20-%20PostgreSQL%20Data%20Warehouse/DimCountry.png)
+![Populated DimCountry table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/DimCountry.PNG)
 
 DimDate:
-![Populated DimDate table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/03%20-%20PostgreSQL%20Data%20Warehouse/DimDate.png)
+![Populated DimDate table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/DimDate.PNG)
 
 FactSales:
-![Populated FactSales table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/03%20-%20PostgreSQL%20Data%20Warehouse/FactSales.png)
+![Populated FactSales table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/FactSales.PNG)
 
 
 ## 2 - Query the data warehouse

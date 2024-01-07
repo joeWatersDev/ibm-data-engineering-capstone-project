@@ -92,4 +92,4 @@ airflow dags unpause process_web_log
 ```
 
 We can now observe the DAG runs in the Airflow console.
-![Ecommerce data as a dashboard datasource](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/5%20-%20Airflow%20ETL%20Data%20Pipelines/dag_runs.png)
+![Ecommerce data as a dashboard datasource](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/5%20-%20Airflow%20ETL%20Data%20Pipelines/dag_runs.PNG)

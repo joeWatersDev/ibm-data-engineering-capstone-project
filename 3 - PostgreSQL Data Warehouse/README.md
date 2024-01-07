@@ -13,8 +13,8 @@ In part 2 you will generate reports out of the data in the data warehouse.
 # Part 1 - Design a Data Warehouse
 
 **Objectives**
-- design a Data Warehouse using the pgAdmin ERD design tool
-- create the schema in the Data Warehouse
+- Design a Data Warehouse using the pgAdmin ERD design tool
+- Create the schema in the Data Warehouse
 
 **Tools / Software Used**
 - ERD Design Tool of pgAdmin
@@ -130,15 +130,19 @@ Load the data provided into the fact and dimension tables created in part 1.
 Below are the first five rows of data for each table.
 
 DimCategory:
+
 ![Populated DimCategory table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/DimCategory.PNG)
 
 DimCountry:
+
 ![Populated DimCountry table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/DimCountry.PNG)
 
 DimDate:
+
 ![Populated DimDate table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/DimDate.PNG)
 
 FactSales:
+
 ![Populated FactSales table](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/3%20-%20PostgreSQL%20Data%20Warehouse/FactSales.PNG)
 
 

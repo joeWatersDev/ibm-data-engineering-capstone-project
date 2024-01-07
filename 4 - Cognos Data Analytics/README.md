@@ -22,10 +22,13 @@ In Cognos analytics, create a new dashboard and designate the newly created modu
 We can now create various visual representations for specified metrics.
 
 Create a line chart of month wise total sales for the year 2020.
+
 ![Line chart of total sales in 2020](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/4%20-%20Cognos%20Data%20Analytics/linechart.PNG)
 
 Create a pie chart of category wise total sales.
+
 ![Pie chart of category wise total sales](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/4%20-%20Cognos%20Data%20Analytics/piechart.PNG)
 
 Create a bar chart of Quarterly sales of mobile phones.
+
 ![Bar chart of quarterly sales of mobile phones](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/4%20-%20Cognos%20Data%20Analytics/barchart.PNG)

@@ -1,5 +1,5 @@
 # Airflow ETL Data Pipelines
-Write a pipeline that analyzes the web server log file, extracts the required lines (ending with html) and fields (time stamp, size ) and transforms (bytes to mb) and load (append to an existing file.)
+Write a pipeline that analyzes the web server log file, extracts the required lines (ending with html) and fields (time stamp, size ), transforms (bytes to mb) and loads the transformed data.
 
 **Objectives**
 - Extract data from a web server log file
@@ -92,4 +92,5 @@ airflow dags unpause process_web_log
 ```
 
 We can now observe the DAG runs in the Airflow console.
+
 ![Ecommerce data as a dashboard datasource](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/5%20-%20Airflow%20ETL%20Data%20Pipelines/dag_runs.PNG)

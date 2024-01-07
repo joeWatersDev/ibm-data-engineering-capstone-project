@@ -3,9 +3,9 @@
 You are a data engineer at an e-commerce company. Your company needs you to design a data platform that uses MongoDB as a NoSQL database. You will be using MongoDB to store the e-commerce catalog data.
 
 **Objectives**
-- import data into a MongoDB database
-- query data in a MongoDB database
-- export data from MongoDB
+- Import data into a MongoDB database
+- Query data in a MongoDB database
+- Export data from MongoDB
 
 **Tools / Software Used**
 - MongoDB Server
@@ -91,7 +91,7 @@ db.electronics.aggregate([{$match: {"type": "smart phone"}},{"$group":{"_id":"$t
 { "_id" : "smart phone", "average" : 6 }
 ```
 
-## 4 - Export data.
+## 4 - Export data
 
 We can use mongoexport to export our collection. We export the fields _id, “type”, and “model”, from the ‘electronics’ collection into a file named electronics.csv
 ```

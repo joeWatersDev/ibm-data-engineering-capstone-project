@@ -3,9 +3,9 @@
 You are a data engineer at an e-commerce company. Your company needs you to design a data platform that uses MySQL as an OLTP database. You will be using MySQL to store the OLTP data.
 
 **Objectives**
-- design the schema for OLTP database
-- load data into OLTP database
-- automate admin tasks
+- Design the schema for OLTP database
+- Load data into OLTP database
+- Automate admin tasks
 
 **Tools / Software Used**
 - MySQL 8.0.22
@@ -33,6 +33,7 @@ CREATE TABLE “sales_data” (
 
 ## 2 - Import and load sample data
 Data imported via phpMyAdmin web interface
+
 ![Confirmation of data import](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/1%20-%20MySQL%20OLTP%20Database/importdata.PNG)
 
 We can confirm successful load and show a count of entries in the table.
@@ -97,6 +98,6 @@ Modify the file permissions to make it executable.
 chmod u+x datadump.sh
 ```
 
-Finally, execute the script
+Finally, execute the script.
 ```
 ./datadump.sh

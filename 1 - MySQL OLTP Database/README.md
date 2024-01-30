@@ -14,7 +14,7 @@ You are a data engineer at an e-commerce company. Your company needs you to desi
 ## Database Schema
 ![Example entries in database for schema design](https://github.com/joeWatersDev/ibm-data-engineering-capstone-project/blob/main/1%20-%20MySQL%20OLTP%20Database/schema.png)
 
-## 1 - Create the database and esign a table named sales_data
+## 1 - Create the database and design a table named sales_data
 Create a database named sales.
 ```
 CREATE DATABASE sales;
